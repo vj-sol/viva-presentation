@@ -1,0 +1,1119 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="author" content="Vijay Solanki">
+
+    <title>Brains in Dialogue</title>
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/simple.css">
+
+    <!-- Theme used for syntax highlighting of code -->
+    <!--     <link rel="stylesheet" href="lib/css/atelier-heath-dark.css"> -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+    <!--Add support for earlier versions of Internet Explorer -->
+    <!--[if lt IE 9]>
+<script src="lib/js/html5shiv.js"></script>
+<![endif]-->
+
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+
+  </head>
+  <body>
+    <div class="reveal">
+      <header style="position: absolute;top: 50px; left: 100px; z-index:500; font-size:30px;"></header>
+      <div class="slides">
+
+
+        <!--    NEW TOP LEVEL SLIDE      -->
+        <section align='left'>
+          <section data-background-image='./resources/image13.jpg' align='left'>
+            <div style='position:absolute; top:-50px; left:-100px'>
+              <h2>
+                Brains in Dialogue
+              </h2>
+              <h4>
+                Investigating accommodation in live conversational speech <br>for both speech and EEG data
+              </h4>
+              <br>
+              <h4>
+                Vijay Solanki, MA(Hons)
+              </h4>
+            </div>
+            <aside class='notes'>
+
+            </aside>
+          </section>
+        </section>
+
+
+
+
+        <!--    NEW TOP LEVEL SLIDE      -->
+        <section align='left'>
+
+<!--           <section>
+            <h2 align='center'>
+              The Aim -->
+              <!--               Why was the problem important and how did it arise? -->
+<!--             </h2>
+            <aside class='notes'>
+
+            </aside>
+          </section> -->
+
+<!--           <section data-background-image='./resources/image24.jpg'>
+
+          </section> -->
+
+          <section>
+            <h3>
+              Main Research Question:
+            </h3>
+            <p>
+              Is speech accommodation linked to the alignment of mental representations as accounted for through observable brain activity?
+            </p>
+            <aside class='notes'>
+
+            </aside>
+          </section>
+
+          <section>
+            <div style='font-size:60%'>
+              <h2>
+                What, Why and How
+              </h2>
+              <br>
+<!--               <h3 style='color:red'>
+                Speech accommodation
+              </h3> -->
+              <h3>
+                What is accommodation?
+              </h3>
+              <br/>
+<!--               <h3>
+                How is accommodation measured?
+              </h3> -->
+<!--               <br> -->
+<!--               <h3 style='color:red'>
+                Alignment of mental representations
+              </h3> -->
+              <h3>
+                Why should accommodation be linked to joint brain activity?
+              </h3>
+              <br>
+<!--               <h3 style='color:red'>
+                Observable brain activity
+              </h3> -->
+              <h3>
+                How can accommodation &amp; brain activity be measured in tandem?
+              </h3>
+            </div>
+            <aside class='notes'>
+
+            </aside>
+          </section>
+
+        </section>
+
+        <!--    NEW TOP LEVEL SLIDE      -->
+        <section align='left'>
+
+          <section>
+            <h2 align='center'>
+              Speech Accommodation
+            </h2>
+            <aside class='notes'>
+            </aside>
+          </section>
+
+          <section align='left'>
+            <h3>
+              What is accommodation?
+            </h3>
+            <p>
+              The tendency of a speaker to adjust their production of speech sounds in relation to the person (or persons) that they are speaking to
+            </p>
+<!--             <h3 class='fragment'>
+              Why do we observe this phenomenon?
+            </h3> -->
+            <ul>
+              <li class='fragment'>Communication Accommodation Theory
+                <p>
+                  Perception of the intentions and behaviours of an interlocutor influence the levels and types of accommodation
+                </p></li>
+            </ul>
+          </section>
+
+          <section>
+            <table style='font-size:80%'>
+              <tr>
+                <td style='border:none; text-align:left; vertical-align:middle; color:#F8766D'>Convergence</td>
+                <td style='border:none'>
+                  <svg width='150' height='130'>
+                    <polygon points='10,10,10,130'
+                             style="fill:lime;stroke:#F8766D;stroke-width:3;fill-rule:evenodd;" />
+                    <polygon points='0,120,150,120'
+                             style="fill:lime;stroke:#F8766D;stroke-width:3;fill-rule:evenodd;" />
+                    <polygon points='20,50,150,80'
+                             style="fill:lime;stroke:#F8766D;stroke-width:3;fill-rule:evenodd;" />
+                    <polygon points='20,80,150,80'
+                             style="fill:lime;stroke:#F8766D;stroke-width:3;fill-rule:evenodd;" />
+                  </svg></td>
+                <td style='border:none'>
+                  <svg width='150' height='130'>
+                    <polygon points='10,10,10,130'
+                             style="fill:lime;stroke:#F8766D;stroke-width:3;fill-rule:evenodd;" />
+                    <polygon points='0,120,150,120'
+                             style="fill:lime;stroke:#F8766D;stroke-width:3;fill-rule:evenodd;" />
+                    <polygon points='20,50,150,50'
+                             style="fill:lime;stroke:#F8766D;stroke-width:3;fill-rule:evenodd;" />
+                    <polygon points='20,80,150,50'
+                             style="fill:lime;stroke:#F8766D;stroke-width:3;fill-rule:evenodd;" />
+                  </svg></td>
+                <td style='border:none'>
+                  <svg width='150' height='130'>
+                    <polygon points='10,10,10,130'
+                             style="fill:lime;stroke:#F8766D;stroke-width:3;fill-rule:evenodd;" />
+                    <polygon points='0,120,150,120'
+                             style="fill:lime;stroke:#F8766D;stroke-width:3;fill-rule:evenodd;" />
+                    <polygon points='20,50,150,65'
+                             style="fill:lime;stroke:#F8766D;stroke-width:3;fill-rule:evenodd;" />
+                    <polygon points='20,80,150,65'
+                             style="fill:lime;stroke:#F8766D;stroke-width:3;fill-rule:evenodd;" />
+                  </svg></td>
+              </tr>
+              <tr>
+                <td style='border:none; text-align:left; vertical-align:middle; color:#7CAE00'>Divergence</td>
+                <td style='border:none'>
+                  <svg width='150' height='130'>
+                    <polygon points='10,0,10,130'
+                             style="fill:lime;stroke:#7CAE00;stroke-width:3;fill-rule:evenodd;" />
+                    <polygon points='0,120,150,120'
+                             style="fill:lime;stroke:#7CAE00;stroke-width:3;fill-rule:evenodd;" />
+                    <polygon points='20,50,150,0'
+                             style="fill:lime;stroke:#7CAE00;stroke-width:3;fill-rule:evenodd;" />
+                    <polygon points='20,80,150,80'
+                             style="fill:lime;stroke:#7CAE00;stroke-width:3;fill-rule:evenodd;" />
+                  </svg></td>
+                <td style='border:none'>
+                  <svg width='150' height='130'>
+                    <polygon points='10,10,10,150'
+                             style="fill:lime;stroke:#7CAE00;stroke-width:3;fill-rule:evenodd;" />
+                    <polygon points='0,120,150,120'
+                             style="fill:lime;stroke:#7CAE00;stroke-width:3;fill-rule:evenodd;" />
+                    <polygon points='20,50,150,50'
+                             style="fill:lime;stroke:#7CAE00;stroke-width:3;fill-rule:evenodd;" />
+                    <polygon points='20,80,150,110'
+                             style="fill:lime;stroke:#7CAE00;stroke-width:3;fill-rule:evenodd;" />
+                  </svg></td>
+                <td style='border:none'>
+                  <svg width='150' height='130'>
+                    <polygon points='10,10,10,150'
+                             style="fill:lime;stroke:#7CAE00;stroke-width:3;fill-rule:evenodd;" />
+                    <polygon points='0,120,150,120'
+                             style="fill:lime;stroke:#7CAE00;stroke-width:3;fill-rule:evenodd;" />
+                    <polygon points='20,50,150,0'
+                             style="fill:lime;stroke:#7CAE00;stroke-width:3;fill-rule:evenodd;" />
+                    <polygon points='20,80,150,110'
+                             style="fill:lime;stroke:#7CAE00;stroke-width:3;fill-rule:evenodd;" />
+                  </svg></td>
+              </tr>
+              <tr>
+                <td style='border:none; text-align:left; vertical-align:middle; color:#00BFC4'>Complimentarity</td>
+                <td style='border:none'>
+                  <svg width='150' height='130'>
+                    <polygon points='10,10,10,130'
+                             style="fill:lime;stroke:#00BFC4;stroke-width:3;fill-rule:evenodd;" />
+                    <polygon points='0,120,150,120'
+                             style="fill:lime;stroke:#00BFC4;stroke-width:3;fill-rule:evenodd;" />
+                    <polygon points='20,50,150,80'
+                             style="fill:lime;stroke:#00BFC4;stroke-width:3;fill-rule:evenodd;" />
+                    <polygon points='20,80,150,110'
+                             style="fill:lime;stroke:#00BFC4;stroke-width:3;fill-rule:evenodd;" />
+                  </svg></td>
+                <td style='border:none'>
+                  <svg width='150' height='130'>
+                    <polygon points='10,10,10,130'
+                             style="fill:lime;stroke:#00BFC4;stroke-width:3;fill-rule:evenodd;" />
+                    <polygon points='0,120,150,120'
+                             style="fill:lime;stroke:#00BFC4;stroke-width:3;fill-rule:evenodd;" />
+                    <polygon points='20,50,150,0'
+                             style="fill:lime;stroke:#00BFC4;stroke-width:3;fill-rule:evenodd;" />
+                    <polygon points='20,80,150,30'
+                             style="fill:lime;stroke:#00BFC4;stroke-width:3;fill-rule:evenodd;" />
+                  </svg></td>
+              </tr>
+              <tr>
+                <td style='border:none; text-align:left; vertical-align:middle; color:#C77CFF'>Maintenance</td>
+                <td style='border:none'>
+                  <svg width='150' height='130'>
+                    <polygon points='10,10,10,130'
+                             style="fill:lime;stroke:#C77CFF;stroke-width:3;fill-rule:evenodd;" />
+                    <polygon points='0,120,150,120'
+                             style="fill:lime;stroke:#C77CFF;stroke-width:3;fill-rule:evenodd;" />
+                    <polygon points='20,50,150,50'
+                             style="fill:lime;stroke:#C77CFF;stroke-width:3;fill-rule:evenodd;" />
+                    <polygon points='20,80,150,80'
+                             style="fill:lime;stroke:#C77CFF;stroke-width:3;fill-rule:evenodd;" />
+                  </svg></td>
+              </tr>
+            </table>
+            <p class='fragment' style='margin-top:-20px;'>However, findings are complex and do not seem to follow a simple pattern</p>
+          </section>
+
+<!--           <section>
+            <h3>
+              How is accommodation measured?
+            </h3>
+            <table>
+              <tr><th style='border:none'></th><th style='border:none'></th><th colspan='2' align='center' style='border:none'><font size='6'>Stimuli</font></th></tr>
+              <tr><td style='border:none'></td><td style='border:none'></td><td style='border:none'><font size='6'>Interactional</font></td><td style='border:none'><font size='6'>Non-Interactional</font></td></tr>
+              <tr><th rowspan='2' align='center' style='border:none'><font size='6'>Measure</font></th><td style='border:none;vertical-align:middle'><font size='6'>Perceptual</font></td><td style='border:none'><img src='./resources/pi.png' style='border:none; box-shadow:none' width=200 height=150/></td><td style='border:none'><img src='./resources/pn.png' style='border:none; box-shadow:none' width=200 height=150/></td></tr>
+              <tr><td style='vertical-align:middle'><font size='6'>Acoustic-Phonetic</font></td><td><img src='./resources/ai.png' style='border:none; box-shadow:none' width=200 height=150/></td><td><img src='./resources/an.png' style='border:none; box-shadow:none' width=200 height=150/></td></tr>
+            </table>
+          </section> -->
+
+          <section>
+            <p>
+              There are many approaches to measuring accommodation and they all offer insight into how accommodation operates and what its underlying mechanisms are
+            </p>
+            <p class='fragment' data-fragment-index='1'>
+              However, most rely on carry over effects and cannot evaluate accommodation 'in situ'
+            </p>
+            <table>
+              <tr>
+                <td style='border:none' class='fragment'  data-fragment-index='1'>
+                  <svg width='400' height='400'>
+                    <polygon points='10,10,10,400'
+                             style="fill:lime;stroke:black;stroke-width:3;fill-rule:evenodd;" />
+                    <polygon points='0,390,400,390'
+                             style="fill:lime;stroke:black;stroke-width:3;fill-rule:evenodd;" />
+                    <polygon points='20,180,390,100'
+                             style="fill:lime;stroke:red;stroke-width:3;fill-rule:evenodd;" />
+                    <polygon points='20,220,390,220'
+                             style="fill:lime;stroke:blue;stroke-width:3;fill-rule:evenodd;" />
+                  </svg></td>
+                <td style='border:none'  class='fragment' data-fragment-index='2'>
+                  <svg width='400' height='400'>
+                    <polygon points='10,10,10,400'
+                             style="fill:lime;stroke:black;stroke-width:3;fill-rule:evenodd;" />
+                    <polygon points='0,390,400,390'
+                             style="fill:lime;stroke:black;stroke-width:3;fill-rule:evenodd;" />
+                    <polygon points='20,180,390,100'
+                             style="fill:lime;stroke:red;stroke-width:3;fill-rule:evenodd;" />
+                    <polygon points='20,220,390,220'
+                             style="fill:lime;stroke:blue;stroke-width:3;fill-rule:evenodd;" />
+                    <polyline points='20,180 40,180 60,180 80,190 100,180 120,200 140,180 160,160 180,170 200,160 220,190 240,160 260,180 280,200 300,160 320,140 340,180 360,110 380,110 390,100'
+                              style="stroke:red;stroke-width:3;fill:none;stroke-dasharray:1, 3" />
+                    <polyline points='20,220 40,240 60,200 80,200 100,200 120,240 140,220 160,200 180,220 200,200 220,190 240,200 260,220 280,180 300,160 320,180 340,220 360,230 380,200 390,220'
+                              style="stroke:blue;stroke-width:3;fill:none;stroke-dasharray:1, 3" />
+                  </svg></td>
+              </tr>
+            </table>
+          </section>
+        </section>
+
+
+
+
+        <!--    NEW TOP LEVEL SLIDE      -->
+        <section align='left'>
+
+          <section>
+            <h2 align='center'>
+              Behavioural Experiment: <br>Phonetic Analyses
+            </h2>
+            <aside class='notes'>
+
+            </aside>
+          </section>
+
+          <section>
+            <h3>Task</h3>
+            <ul>
+              <li>The DiapixUK task was used to elicit speech</li>
+              <ul>
+                <li>Requires participants to work together to find 12 differences between 12 different images pairs</li>
+              </ul>
+              <li>Participants could not see each others images</li>
+            </ul>
+            <img src='./resources/beach1A-comparison.svg' style='border:none; box-shadow:none'>
+          </section>
+
+          <section>
+            <ul>
+              <li>Presentation Position</li>
+              <ul>
+                <li class='fragment'>Overall change in speech patterning</li>
+              </ul><br/>
+              <li>Interaction Length</li>
+              <ul>
+                <li class='fragment'>Change in speech patterning related to task difficulty</li>
+              </ul>
+            </ul>
+            <aside class='notes'>
+              Presentation position = temporal order in which the images were presented
+            </aside>
+          </section>
+
+
+<!--           <section>
+            <h3>
+              Statistical Analyses
+            </h3>
+            <p>
+              Three analyses were performed on each of the acoustic-phonetic features:
+            </p>
+            <ol>
+              <li class='fragment'>Residuals of MEM for partner vs. speaker</li>
+              <li class='fragment'>Residuals of MEM for partner vs. speaker with GAM smoothing &amp; time normalisation for presentation position</li>
+              <li class='fragment'>Residuals of MEM for partner vs. speaker with GAM smoothing &amp; time normalisation for interaction length</li>
+            </ol>
+            <aside class='notes'>
+              1 - Checking to see if, once we have accounted for random factors, the partner's local average realisation predicts the speaker's current realisation.<br>
+              2 - Checking to see if, once we have accounted for random factors and modelled the change non-linearly and normalised for time, the partner's local average realisation predicts the speaker's current realisation in relation to the length of the experiment.<br>
+              3 - Checking to see if, once we have accounted for random factors and modelled the change non-linearly and normalised for time, the partner's local average realisation predicts the speaker's current realisation in relation to the length of the trial.
+            </aside>
+          </section> -->
+
+<!--           <section>
+            <h3>
+              Results
+            </h3>
+            <table>
+              <tr>
+                <th align='center' style='border:none'>VOT</th>
+                <th align='center' style='border:none'>Vowels</th>
+                <th align='center' style='border:none'>Speech Rate</th>
+              </tr>
+              <tr>
+                <td   class='fragment' data-fragment-index='1' style='border:none'><img src='./resources/VOT-length-diff-trend.png' style='border:none; box-shadow:none' width=600px></td>
+                <td   class='fragment' data-fragment-index='2' style='border:none'><img src='./resources/vowel-length-int.png' style='border:none; box-shadow:none' width=600px></td>
+                <td   class='fragment' data-fragment-index='3' style='border:none'><img src='./resources/sr-time.png' style='border:none; box-shadow:none' width=600px></td>
+              </tr>
+              <tr>
+                <td  class='fragment' data-fragment-index='1' width=600px style='border:none'><small>Convergence found for VOT in relation to interaction length using GAM analysis</small></td>
+                <td  class='fragment' data-fragment-index='2' width=600px style='border:none'><small>Convergence found for F2 of STRUT vowel in relation to interaction length using GAM analysis</small></td>
+                <td  class='fragment' data-fragment-index='3' width=600px style='border:none'><small>Convergence found for speech rate using MEM analysis</small></td>
+              </tr>
+            </table>
+          </section> -->
+
+          <section>
+            <h3>
+              Key question
+            </h3>
+            <ul>
+              <li>Can a phonetic analysis approach be used to detect accommodation across a continuous interaction?</li>
+            </ul>
+          </section>
+
+          <section>
+            <h3>
+              Results
+            </h3>
+            <p>
+              The results for the phonetic analysis were mostly non-significant
+            </p>
+            <p>
+              Of the significant results that were present, they suggested the following:
+            </p>
+            <ol>
+              <li class='fragment'>Some suggestion that accommodation may occur differently across different phonetic measures</li><br/>
+              <li class='fragment'>Context plays a role in accommodative effects</li><br/>
+              <li class='fragment'>Weak support for the detection of accommodation in a continuous interaction using acoustic-phonetic measures</li>
+            </ol>
+          </section>
+
+<!--           <section>
+            <h3>
+              What do these findings suggest?
+            </h3>
+            <ol>
+              <li>Weak support for the detection of accommodation in a continuous interaction using acoustic-phonetic measures</li><br/>
+              <li>Some suggestion that accommodation may occur differently across different phonetic measures</li><br/>
+              <li>Context plays a role in accommodative effects</li>
+            </ol>
+            <aside class='notes'>
+
+            </aside>
+          </section> -->
+        </section>
+
+        <section align='left'>
+
+          <section>
+            <h2>
+              Accommodation and HMMs
+            </h2>
+          </section>
+
+          <section>
+            <h3 align='left'>
+              Hidden Markov Models (HMMS) <br>and speech data
+            </h3>
+            <p>
+              Markov chains
+            </p>
+            <div align='center'>
+              <img src='./resources/markov-chain.png' style='border:none; box-shadow:none'width=900px>
+            </div>
+          </section>
+
+          <section>
+            <p>
+              Hidden Markov Models
+            </p>
+            <div align='center'>
+              <img src='./resources/HMM-speech.png' style='border:none; box-shadow:none'width=900px>
+            </div>
+            <p class='fragment'>
+              In this way, HMMs are able to characterise the general form of a continuous signal
+            </p>
+          </section>
+
+          <section>
+            <h4>
+              Basic methodological approach:
+            </h4>
+            <ol style='font-size:80%'>
+              <li>Conversion to MFCCs
+                <!--                 <p>Creating a holistic measure of acoustic properties</p> -->
+              </li>
+              <li>Training of HMMs for each speaker
+                <!--                 <p>Creation of speaker recognition models</p> -->
+              </li>
+              <li><span class='fragment highlight-red' data-fragment-index='1'>Computation of likelihood ratios</span><br>
+                <!--                 <p>Accommodation detection for specific words</p> -->
+              </li>
+              <li><span class='fragment highlight-red' data-fragment-index='1'>Correlation with time</span><br>
+                <!--                 <p>Accommodation detection over time</p> -->
+              </li>
+            </ol>
+
+            <img class='fragment' src='./resources/detection.png' style='border:none; box-shadow:none' width=1000px>
+          </section>
+
+          <section>
+            <p>
+              3 types of speaker recognition models:
+            </p>
+            <ul>
+              <li class='fragment' data-fragment-index='1'>Gaussian Mixture Model (GMM)</li>
+              <ul>
+                <li class='fragment' data-fragment-index='1'>General distribution of acoustic evidence in the feature space</li>
+              </ul>
+              <li class='fragment' data-fragment-index='2'>Left-Right Model (LR)</li>
+              <ul>
+                <li class='fragment' data-fragment-index='2'>Temporal patterning of observed acoustic evidence</li>
+              </ul>
+              <li class='fragment' data-fragment-index='3'>Word Dependent Model (WD)</li>
+              <ul>
+                <li class='fragment' data-fragment-index='3'>Change in acoustic evidence over time</li>
+              </ul>
+            </ul>
+          </section>
+
+        </section>
+
+        <section align='left'>
+          <section>
+            <h2>
+              Behavioural Experiment:<br>HMM Analyses
+            </h2>
+          </section>
+
+          <section>
+            <h3>
+              Key questions:
+            </h3>
+            <ul>
+              <li>Can an HMM based approach detect accommodation patterns in a continuous interaction?</li><br>
+              <li>Are results from the HMM based approach compatible with the trends suggested by the phonetic analyses?</li>
+            </ul>
+          </section>
+
+          <section>
+            <p>
+              Can an HMM based approach detect accommodation patterns in a continuous interaction?
+            </p>
+            <table>
+              <tr>
+                <th>Model Type</th>
+                <th>No. Significant Cases</th>
+                <th>p</th>
+              </tr>
+              <tr>
+                <td style='border:none'>GMM</td>
+                <td style='border:none'>57</td>
+                <td style='border:none'>&lt;10<sup>-7</sup></td>
+              </tr>
+              <tr>
+                <td style='border:none'>Left-Right</td>
+                <td style='border:none'>50</td>
+                <td style='border:none'>&lt;10<sup>-7</sup></td>
+              </tr>
+              <tr>
+                <td>Word Dependent</td>
+                <td>42</td>
+                <td>&lt;10<sup>-7</sup></td>
+              </tr>
+            </table>
+            <br>
+            <h3 class='fragment'>
+              Yes
+            </h3>
+          </section>
+
+          <section>
+            <p>
+              Do the results of the HMM based approach mirror those of the phonetic analyses?
+            </p>
+            <table>
+              <tr>
+                <td><img src='./resources/HMM-bar-position-beh.png'style='border:none; box-shadow:none' width=600px></td>
+                <td><img src='./resources/HMM-bar-length-beh.png'style='border:none; box-shadow:none' width=600px></td>
+              </tr>
+            </table>
+            <h3 class='fragment'>
+              Yes
+            </h3>
+          </section>
+
+          <section>
+            <h3>
+              What do these findings suggest?
+            </h3>
+            <ol>
+              <li>Support for the detection of accommodation in a continuous interaction using an HMM based approach</li><br/>
+              <li>Indication that accommodation can be detected at different levels of acoustic evidence</li><br/>
+              <li>Further support for the role of context in accommodative effects</li>
+<!--               </li>Detection of accommodation during short-term, continuous interactions using acoustic-phonetic measures returns only a few small effects</li><br/>
+              <li>More holistic, HMM based approaches to the detection of accommodation during short-term continuous interactions are able to classify interactions by accommodation pattern</li> -->
+            </ol>
+          </section>
+        </section>
+
+
+        <!--    NEW TOP LEVEL SLIDE      -->
+        <section align='left'>
+
+          <section>
+            <h2>
+              Accommodation and <br>Brain  Activity
+            </h2>
+          </section>
+
+          <section>
+            <h3>
+              Why should accommodation be linked to joint brain activity?
+            </h3>
+            <div class='fragment'>
+              <p>
+                The cognitive mechanisms underlying accommodation
+              </p>
+              <ul>
+                <li>The motor theory of speech</li>
+                <li>Direct realism</li>
+                <li>Phonetic detail in episodic memory</li>
+                <li>Mechanistic language use in dialogue</li>
+              </ul>
+            </div>
+            <p class='fragment'>
+              All assume a non-trivial link between production and perception
+            </p>
+          </section>
+
+          <section>
+            <table>
+              <tr>
+                <th  style='border:none' width=600px>
+                  Neural entrainment
+                </th>
+                <th  style='border:none' width=2000px class='fragment' data-fragment-index='1'>
+                  Neural entrainment to speech
+                </th>
+              </tr>
+              <tr>
+                <td style='border:none'><img src='./resources/phase-processing.jpg' style='border:none; box-shadow:none'></td>
+                <td style='border:none' class='fragment' data-fragment-index='1'><img src='./resources/giraud-oscillations.png' style='border:none; box-shadow:none' ></td>
+              </tr>
+            </table>
+            <p class='fragment' style='font-size:80%'>
+              Neural entrainment to the speech of another speaker could produce a degree of inter-speaker entrainment
+            </p>
+            <p class='fragment' style='font-size:80%'>
+              This would be especially true in situations that require high levels of coordination
+            </p>
+          </section>
+
+          <section>
+            <h3>
+              How can accommodation &amp; brain activity be measured in tandem?
+            </h3>
+            <ul>
+            <li class='fragment'>
+              Recall that an HMM is able to characterise the  general form of a continuous signal
+            </li><br/>
+            <li class='fragment'>
+              When using EEG to measure brain activity, the output is a continuous signal related to the electrical activity of the brain
+            </li><br/>
+            <li class='fragment'>
+              Application of the HMM based approach required only that a suitable vectorisation parameter be chosen, here the Power Spectral Density (PSD)
+            </li>
+            </ul>
+          <aside class='notes'>
+            <p>
+              HMMs are domain independent, meaning that they can be applied to any signal source that varies with respect to another dimension.
+
+              Recent advances
+            </p>
+          </aside>
+        </section>
+
+<!--           <section>
+            <p>
+              The 3 types of EEG analysis:
+            </p>
+            <ol>
+              <li class='fragment'>The EEG signal relating to when the participant is speaking</li>
+              <li class='fragment'>The EEG signal relating to when the participant is not speaking</li>
+              <li class='fragment'>The EEG signal across the entire interaction</li>
+            </ol>
+            <aside class='notes'>
+              Unlike speech data, EEG data are continually produced, meaning that there is data being produced even when a participant isn't speaking.
+              Because of this, we are able to look at the data in three different ways.
+            </aside>
+          </section> -->
+
+        </section>
+
+        <!--    NEW TOP LEVEL SLIDE      -->
+        <section align='left'>
+          <section align='center'>
+            <h2>
+              The Neural Experiment
+              <!--         What were the results? -->
+            </h2>
+          </section>
+
+            <section>
+            <h3>
+              Method
+            </h3>
+            <p>The same as for the behavioural experiment, except for the application of EEG caps and collection of EEG data</li>
+<!--           <div class='fragment'>
+          </div> -->
+        </section>
+
+          <section>
+            <h3>
+              Key questions
+            </h3>
+            <ul>
+              <li>Can the findings of the HMM based approach to accommodation detection presented in the behavioural experiment be replicated?</li><br/>
+              <li class='fragment'>Is an HMM based approach able to detect shifting trends in brain activity patterns relative to an interlocutor?</li><br/>
+              <li class='fragment'>Is there a relationship between speech accommodation patterns and brain activity patterns between speakers?</li>
+            </ul>
+          </section>
+
+        <section>
+          <h3>
+            Speech Analyses
+          </h3>
+          <p style='font-size:30px'>
+            Can the findings of the HMM based approach to accommodation detection presented in the behavioural experiment be replicated?
+          </p>
+          <div align='center'>
+            <table>
+              <tr><th style='border:none; font-size:90%'>Behavioural Exp. (speech)</th><th style='border:none; font-size:90%'>Neural Exp. (speech)</th></tr>
+              <tr>
+                <td><img src='./resources/HMM-bar-length-beh.png' style='border:none; box-shadow:none' height=300px width=500px></td>
+                <td class='fragment'><img src='./resources/neural-speech-bar.png' style='border:none; box-shadow:none' height=300px width=500px></td>
+              </tr>
+            </table>
+          </div>
+          <h3 class='fragment'>
+            Yes
+          </h3>
+        </section>
+
+
+        <section>
+          <h3>
+            EEG Analyses
+          </h3>
+          <table>
+            <tr>
+              <th style='border:none'>Neural Exp. (speech)</th>
+              <th style='border:none'>Neural Exp. (EEG)</th>
+            </tr>
+            <tr>
+              <td>
+                <img src='./resources/neural-speech-bar.png' style='border:none; box-shadow:none' width=750px>  </td>
+              <td class='fragment'>
+                <img src='./resources/EEG-bar1.png' style='border:none; box-shadow:none' width=750px>  </td>
+            </tr>
+          </table>
+
+          <aside class='notes'>
+            It should be noted that as with the speech data, all results presented here are not produced by chance
+          </aside>
+        </section>
+
+        <section>
+
+          <ul>
+            <li>Is an HMM based approach able to detect shifting trends in brain activity patterns relative to an interlocutor?</li>
+            <p class='fragment'>
+              Maybe
+            </p>
+            <li>Is there a relationship between speech accommodation patterns and brain activity patterns between speakers?</li>
+            <p class='fragment'>
+              Maybe
+            </p>
+          </ul>
+        </section>
+
+        </section>
+
+
+
+
+      <!--    NEW TOP LEVEL SLIDE      -->
+      <section align='left'>
+
+        <section align='center'>
+          <h2>
+            The Conclusions
+          </h2>
+        </section>
+
+        <section>
+          <h3>Behavioural</h3>
+          <ul>
+            <li>Accommodation occurs across a number of acoustic features</li><br/>
+            <li class='fragment'>Considering accommodation on a continuous basis may allow for a new avenue of investigation</li>
+            <ul>
+              <li class='fragment'>An HMM based approach presents a potential tool for exploring that avenue</li>
+            </ul><br/>
+<!--             <li class='fragment'>Other behavioural influences may have been overlooked in the past due to a lack of sensitivity</li> -->
+            <li class='fragment'>Looking at accommodation in relation to behavioural triggers may provide novel insights</li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>Neural</h3>
+          <ul>
+            <li>Further evidence for the efficacy of holistic approaches for the detection of speech accommodation is provided</li><br/>
+            <li class='fragment'>HMM based approaches may be able to detect shifts in brain activity in relation to accommodation</li>
+              <ul>
+                <li class='fragment'>However, improvements to the approach are needed to verify this</li>
+              </ul>
+          </ul>
+        </section>
+
+        <section>
+          <h3>
+            Main research question:
+          </h3>
+          <p>
+            Is speech accommodation linked to the alignment of mental representations as accounted for through observable brain activity?
+          </p><br/>
+          <ul>
+            <li class='fragment'>The data presented here tentatively suggest that it might be, but:</li>
+            <ul>
+              <li class='fragment'>More research is needed</li>
+              <li class='fragment'>The potential tools designed here need calibration and to be applied more widely</li>
+            </ul>
+          </ul>
+<!--           <ul>
+            <li>Accommodation is sensitive to ongoing social signals and contextual events that continuously unfold. To fully understand accommodation we need </li>
+            <li>The use of speech recognition techniques such as HMMs could prove useful in evaluating and understanding accommodation</li>
+            <li>With further work, it may be possible to apply continuous signal recognition systems to the analysis of neural data</li>
+          </ul> -->
+        </section>
+
+      </section>
+
+      <section data-background-image='./resources/image13.jpg' align='left'>
+        <h2>
+          Thank you
+        </h2>
+      </section>
+
+
+      <section>
+        <section>
+          <h2>
+            Additional Content
+          </h2>
+        </section>
+
+        <section>
+            <h3>Participants - Behavioural</h3>
+            <ul>
+              <li>6 female participant pairs (12 participants total)</li>
+              <li>Aged 19 to 65 (mean 30.92)</li>
+              <li>All born and raised in the city of Glasgow conurbation</li>
+              <li>All have normal hearing and normal or corrected to normal vision</li>
+            </ul>
+          </section>
+
+        <section>
+            <p>
+              Three acoustic-phonetic features were chosen for analysis:
+            </p>
+            <ul>
+              <li class='fragment' data-fragment-index='1'>VOT</li><br/>
+              <li class='fragment' data-fragment-index='2'>Vowel F1 &amp; F2 values</li>
+<!--               <ul>
+                <li  class='fragment' data-fragment-index='2'>STRUT</li>
+                <li  class='fragment' data-fragment-index='2'>THOUGHT</li>
+                <li  class='fragment' data-fragment-index='2'>TRAP</li>
+              </ul> -->
+              <br/>
+              <li class='fragment' data-fragment-index='3'>Speech rate</li>
+<!--               <ul>
+                <li  class='fragment' data-fragment-index='3'>Syllables per utterance / length of utterance</li>
+              </ul> -->
+            </ul>
+          </section>
+
+        <section>
+            <p>
+              Markov chains
+            </p>
+            <svg width='1000' height='400'>
+              <circle cx='60' cy='200' r='50' fill='white' stroke='black'/>
+              <text x='35' y='215'>Ra</text>
+
+              <polygon points='110,200,400,50'
+                       style="fill:lime;stroke:black;stroke-width:3;fill-rule:evenodd;" />
+              <ellipse cx='450' cy='50' rx='50' ry='30' stroke='black' fill='none'/>
+              <text x='420' y='65'>0.3</text>
+              <polygon points='110,200,400,200'
+                       style="fill:lime;stroke:black;stroke-width:3;fill-rule:evenodd;" />
+              <ellipse cx='450' cy='200' rx='50' ry='30' stroke='black' fill='none'/>
+              <text x='420' y='215'>0.5</text>
+              <polygon points='110,200,400,350'
+                       style="fill:lime;stroke:black;stroke-width:3;fill-rule:evenodd;" />
+              <ellipse cx='450' cy='350' rx='50' ry='30' stroke='black' fill='none'/>
+              <text x='420' y='365'>0.2</text>
+
+              <polygon points='500,50,700,50'
+                       style="fill:lime;stroke:black;stroke-width:3;fill-rule:evenodd;" />
+              <circle cx='670' cy='50' r='50' fill='white' stroke='black'/>
+              <text x='645' y='65'>Cl</text>
+              <polygon points='500,200,700,200'
+                       style="fill:lime;stroke:black;stroke-width:3;fill-rule:evenodd;" />
+              <circle cx='670' cy='200' r='50' fill='white' stroke='black'/>
+              <text x='645' y='215'>Ra</text>
+              <polygon points='500,350,700,350'
+                       style="fill:lime;stroke:black;stroke-width:3;fill-rule:evenodd;" />
+              <circle cx='670' cy='350' r='50' fill='white' stroke='black'/>
+              <text x='645' y='365'>Su</text>
+            </svg>
+          </section>
+
+        <section>
+          <h3>
+              Participants - neural
+            </h3>
+            <ul>
+              <li>6 female participant pairs (12 participants total)</li>
+              <li>Aged 20 to 65 (mean 36.33)</li>
+              <li>All born and raised in the city of Glasgow conurbation</li>
+              <li>All have normal hearing and normal or corrected to normal vision</li>
+            </ul>
+        </section>
+
+        <section>
+          <p>
+            Pre-processing
+          </p>
+          <ol>
+            <li>Downsample to 512Hz</li>
+            <li>Clean data with Artefact Subspace Reconstruction</li>
+            <li>Apply PREP pipeline</li>
+            <li>Reduce data contamination with ICA</li>
+          </ol>
+          <table>
+            <tr>
+              <td style='border:none'><img src='./resources/EEG-noisy.png' style='border:none; box-shadow:none' width=600px></td>
+              <td><img src='./resources/EEG-clean.png' style='border:none; box-shadow:none' width=600px></td>
+            </tr>
+          </table>
+        </section>
+
+                <section>
+          <h3>
+            EEG Analyses: Not Speaking
+          </h3>
+          <div align='center'>
+            <img src='./resources/EEG-bar2.png' style='border:none; box-shadow:none' width=500px>
+          </div>
+        </section>
+
+        <section>
+          <h3>
+            EEG Analyses: Both
+          </h3>
+          <div align='center'>
+            <img src='./resources/EEG-bar3.png' style='border:none; box-shadow:none' width=500px>
+          </div>
+        </section> -->
+
+        <section>
+          <h3>
+            EEG Analyses: All
+          </h3>
+          <table>
+            <tr>
+              <th style='border:none'>Speaking</th>
+              <th style='border:none'>Not Speaking</th>
+              <th style='border:none; align:centre' >Both</th>
+            </tr>
+            <tr>
+              <td colspan='3' style='border:none'><img src='./resources/EEG-all.png' style='border:none; box-shadow:none' width=3000px></td>
+              <td style='border:none'><img src='./resources/EEG-bar2.png' style='border:none; box-shadow:none' width=500px></td>
+              <td style='border:none'><img src='./resources/EEG-bar3.png' style='border:none; box-shadow:none' width=500px></td>
+            </tr>
+          </table>
+        </section>
+
+        </section>
+
+      </section>
+
+    </div>
+  </div>
+
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.js"></script>
+
+<script>
+  // More info https://github.com/hakimel/reveal.js#configuration
+  Reveal.initialize({
+    height:800,
+    width:960,
+    margin: 0.1,
+    minScale: 1,
+    maxScale: 1.5,
+    // Display controls in the bottom right corner
+    controls: false,
+
+    // Display a presentation progress bar
+    progress: true,
+
+    // Display the page number of the current slide
+    slideNumber: false,
+
+    // Push each slide change to the browser history
+    history: true,
+
+    // Enable keyboard shortcuts for navigation
+    keyboard: true,
+
+    // Enable the slide overview mode
+    overview: true,
+
+    // Vertical centering of slides
+    center: true,
+
+    // Enables touch navigation on devices with touch input
+    touch: true,
+
+    // Loop the presentation
+    loop: false,
+
+    // Change the presentation direction to be RTL
+    rtl: false,
+
+    // Randomizes the order of slides each time the presentation loads
+    shuffle: false,
+
+    // Turns fragments on and off globally
+    fragments: true,
+
+    // Flags if the presentation is running in an embedded mode,
+    // i.e. contained within a limited portion of the screen
+    embedded: false,
+
+    // Flags if we should show a help overlay when the questionmark
+    // key is pressed
+    help: true,
+
+    // Flags if speaker notes should be visible to all viewers
+    showNotes: false,
+
+    // Number of milliseconds between automatically proceeding to the
+    // next slide, disabled when set to 0, this value can be overwritten
+    // by using a data-autoslide attribute on your slides
+    autoSlide: 0,
+
+    // Stop auto-sliding after user input
+    autoSlideStoppable: true,
+
+    // Use this method for navigation when auto-sliding
+    autoSlideMethod: Reveal.navigateNext,
+
+    // Enable slide navigation via mouse wheel
+    mouseWheel: false,
+
+    // Hides the address bar on mobile devices
+    hideAddressBar: true,
+
+    // Opens links in an iframe preview overlay
+    previewLinks: false,
+
+    // Transition style
+    transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+    // Transition speed
+    transitionSpeed: 'default', // default/fast/slow
+
+    // Transition style for full page slide backgrounds
+    backgroundTransition: 'slide', // none/fade/slide/convex/concave/zoom
+
+    // Number of slides away from the current that are visible
+    viewDistance: 3,
+
+    // Parallax background image
+    parallaxBackgroundImage: '', // e.g. "'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg'"
+
+    // Parallax background size
+    parallaxBackgroundSize: '', // CSS syntax, e.g. "2100px 900px"
+
+    // Number of pixels to move the parallax background per slide
+    // - Calculated automatically unless specified
+    // - Set to 0 to disable movement along an axis
+    parallaxBackgroundHorizontal: null,
+    parallaxBackgroundVertical: null,
+
+    // More info https://github.com/hakimel/reveal.js#dependencies
+    dependencies: [
+      { src: 'lib/js/classList.js', condition: function ()
+       { return !document.body.classList;}},
+      { src: 'plugin/markdown/marked.js' },
+      { src: 'plugin/markdown/markdown.js' },
+      { src: 'plugin/notes/notes.js', async: true },
+      { src: 'plugin/zoom-js/zoom.js', async: true, condition: function () { return !!document.body.classList; } },
+      { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+    ]
+  });
+  Reveal.configure({ pdfMaxPagesPerSlide: 1 });
+</script>
+</body>
+</html>
